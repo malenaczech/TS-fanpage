@@ -1,5 +1,5 @@
 <h1>Taylor Swift Fanpage - Proyecto CoderHouse</h1>
-<p>Esto es una fanpage creada para el curso de Desarrollo Wev</p>
+<p>Esto es una fanpage creada para el curso de Desarrollo Web</p>
 
 <h2>Tecnologias usadas</h2>
 <ul>
