@@ -112,6 +112,10 @@ span{
     margin-left: 5px;
 }
 
+.extra__imagen:hover{
+    transform: scale(2,2);
+}
+
 /* ALBUMS */
 .album{
     display: grid;
@@ -291,6 +295,10 @@ textarea{
 .formulario__boton{
     font-family: "Roboro", sans-serif;
     font-size: 16px;
+}
+
+.formulario__boton:hover{
+    transform: scale(0.8 , 0.8);
 }
 
 /* PIE DE PAGINA */
