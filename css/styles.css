@@ -3,31 +3,19 @@
     padding: 0px;
 }
 /* BARRA NAVEGACION */
-.header__nav {
-    background-color: rgb(223, 209, 190);
-    display: flex;
-}
-
-.header__logo{
-    width: 30px;
-    height: 30px;
-    padding: 2px;
-    margin-left: 2px;
-}
-.header__lista{
-    list-style: none;
-    display: flex;
+.nav__color{
+    color: rgb(155, 9, 9);
     font-family:'Oswald',sans-serif;
-}
-
-.header__item{
-    margin: 8px;
     font-size: 16px;
 }
 
-.header__item a{
-    text-decoration: none;
-    color: rgb(155, 9, 9);
+.nav__fondo{
+    background-color: rgb(223, 209, 190);
+}
+
+.nav__logo{
+    width: 26px;
+    height: 26px;
 }
 
 /* MAIN */
@@ -268,38 +256,13 @@ span{
 label{
     font-family: "Oswald", sans-serif;
     font-size: 20px;
-    padding: 10px;
-    margin: 5px;
 }
 
-input{
-    padding: 10px;
-    margin: 10px;
+.buttom__color{
+    background-color: rgb(101, 9, 9);
+    color: rgb(223, 209, 190);
 }
 
-textarea{
-    padding: 10px;
-    margin: 10px;
-}
-
-.formulario{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.formulario__input{
-    margin-left: 35px
-}
-
-.formulario__boton{
-    font-family: "Roboro", sans-serif;
-    font-size: 16px;
-}
-
-.formulario__boton:hover{
-    transform: scale(0.8 , 0.8);
-}
 
 /* PIE DE PAGINA */
 footer{
