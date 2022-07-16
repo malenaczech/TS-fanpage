@@ -81,9 +81,8 @@ span{
 }
 
 .extra{
-    background-color: rgb(101, 9, 9);
 /*     margin: 0px 0px 20px 20px; */
-    display: flex;
+/*     display: flex; */
     grid-column: 1/2;
     grid-row: 3/4;
 }
@@ -94,9 +93,13 @@ span{
 
 }
 
+.extra__alto{
+    background-color: rgb(101, 9, 9);
+} 
+
 .extra__imagen{
-    width: 150px;
-    height: 150px;
+    width: 190px;
+    height: 195px;
     align-self: center;
     margin-left: 5px;
 }
