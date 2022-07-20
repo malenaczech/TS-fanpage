@@ -1,0 +1,23 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "<h1>Taylor Swift Fanpage - Proyecto CoderHouse</h1>\r <p>Esto es una fanpage creada para el curso de Desarrollo Web</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malenaczech/TS-fanpage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malenaczech/TS-fanpage/issues"
+  },
+  "homepage": "https://github.com/malenaczech/TS-fanpage#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
