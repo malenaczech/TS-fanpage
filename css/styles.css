@@ -187,6 +187,16 @@ span{
 
 /* GALERIA */
 
+.page-link{
+    background-color: rgb(101, 9, 9);
+    color: rgb(223, 209, 190);
+}
+
+.page-link:hover{
+    color: rgb(101, 9, 9);
+    background-color: rgb(223, 209, 190);
+}
+
 .galeria{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
