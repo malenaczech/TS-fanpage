@@ -4,7 +4,10 @@
   "description": "<h1>Taylor Swift Fanpage - Proyecto CoderHouse</h1>\r <p>Esto es una fanpage creada para el curso de Desarrollo Web</p>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,23 @@
+/* FOOTER */
+footer{
+    background-color: $color-oscuro;
+    color: $color-claro;
+    padding: 15px 5px;
+    display: flex;
+    margin-top: 20px;
+    bottom: auto;
+
+    .footer{
+
+        &__texto{
+            flex-grow: 1;
+        }
+        
+        &__icono{
+            height: 20px;
+            justify-content: flex-end;
+            margin-right: 16px;
+        }
+    }
+}
+

@@ -1,0 +1,26 @@
+.re-recordings{
+    display: flex;
+
+    .recordings{
+        margin: 20px;
+    
+        &__flex{
+            display: flex;
+        }
+
+        &__foto{
+            width: 150px;
+            height: 150px;
+            margin-left: 10px;
+        }
+
+        &__cancion{
+            font-family: 'Roboto', sans-serif;
+            margin-left: 25px;
+        }
+    }
+
+    .informacion__parrafo{
+        font-size: 20px;
+    }    
+}
