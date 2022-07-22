@@ -1,0 +1,40 @@
+.album{
+    display: grid;
+    grid-template-areas: 
+        "evermore folklore lover"
+        "reputation ninteen red"
+        "speak fearless taylor";
+    row-gap: 30px;
+
+    &__foto{
+        width: 150px;
+        height: 150px;
+        margin-left: 10px;
+    }
+    
+    &__cancion{
+        font-family: 'Roboto', sans-serif;
+        margin-left: 25px;
+    }
+    
+    &__flex{
+        display: flex;
+    }
+    
+    /* GRID */
+    &__evermore{
+        grid-area: evermore;
+    }
+    
+    &__folklore{
+        grid-area: folklore;
+    }
+    
+    &__lover{
+        grid-area: lover;
+    }
+    
+    &__reputation{
+        grid-area: reputation;
+    }
+}

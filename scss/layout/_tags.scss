@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    background-color: beige;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Bebas Neue',cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: $color-titulos;
+    padding: 10px 0px 0px 0px;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    color: $color-titulos;
+    margin: 0px 10px;
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 10px
+}
+
+span{
+    font-family: 'Roboto', sans-serif;
+}
+
+label{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+}

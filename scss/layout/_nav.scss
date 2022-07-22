@@ -1,0 +1,16 @@
+.nav{
+    &__color{
+        color: $color-titulos;
+        font-family:'Oswald',sans-serif;
+        font-size: 16px;
+    }
+
+    &__fondo{
+        background-color: $color-claro;
+    }
+
+    &__logo{
+        width: 26px;
+        height: 26px;
+    }
+}
