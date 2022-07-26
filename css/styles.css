@@ -167,12 +167,88 @@ footer {
   .re-recordings .informacion__parrafo {
     font-size: 20px; }
 
+<<<<<<< HEAD
 .galeria {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 70px 200px 200px 200px 200px 200px;
   gap: 5px; }
   .galeria .diploma {
+=======
+/* GRID */
+.album__evermore{
+    grid-area: evermore;
+}
+
+.album__folklore{
+    grid-area: folklore;
+}
+
+.album__lover{
+    grid-area: lover;
+}
+
+.album__reputation{
+    grid-area: reputation;
+}
+
+/* RE-RECORDINGS */
+.re-recordings{
+    display: flex;
+}
+
+.recordings__flex{
+    display: flex;
+}
+
+.recordings{
+    margin: 20px;
+}
+
+
+.informacion__parrafo{
+    font-size: 20px;
+}
+
+.recordings__foto{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+.recordings__cancion{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 25px;
+}
+
+
+
+/* GALERIA */
+
+.page-link{
+    background-color: rgb(101, 9, 9);
+    color: rgb(223, 209, 190);
+}
+
+.page-link:hover{
+    color: rgb(101, 9, 9);
+    background-color: rgb(223, 209, 190);
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px 200px 200px 200px 200px 200px;
+    gap: 5px;
+}
+
+.galeria__titulo{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.diploma{
+>>>>>>> elementos-bootstrap
     grid-column: 1/2;
     grid-row: 2/4;
     background-image: url("../resources/diploma.jpg");
