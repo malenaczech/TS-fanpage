@@ -14,3 +14,9 @@
         height: 26px;
     }
 }
+
+.nav__hover:hover{
+    color: $color-oscuro;
+    transform: scale(0.95,0.95);
+    transition: all 0.3s;
+}

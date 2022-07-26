@@ -2,9 +2,10 @@
     display: grid;
     grid-template-areas: 
         "evermore folklore lover"
-        "reputation ninteen red"
-        "speak fearless taylor";
+        "reputation nineteen red"
+        "speak-now fearless debut";
     row-gap: 30px;
+
 
     &__foto{
         width: 150px;
@@ -14,7 +15,7 @@
     
     &__cancion{
         font-family: 'Roboto', sans-serif;
-        margin-left: 25px;
+        font-size: 14px;
     }
     
     &__flex{
@@ -36,5 +37,25 @@
     
     &__reputation{
         grid-area: reputation;
+    }
+
+    &__nineteen{
+        grid-area: nineteen;
+    }
+
+    &__red{
+        grid-area: red;
+    }
+
+    &__speak-now{
+        grid-area: speak-now;
+    }
+
+    &__fearless{
+        grid-area: fearless;
+    }
+
+    &__debut{
+        grid-area: debut;
     }
 }

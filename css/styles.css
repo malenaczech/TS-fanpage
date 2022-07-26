@@ -50,6 +50,174 @@ footer {
     justify-content: flex-end;
     margin-right: 16px; }
 
+.footer__icono:hover {
+  transform: scale(0.95, 0.95); }
+
+/* @import "layout/mediaqueries"; */
+.nav__color {
+  color: #9b0909;
+  font-family: 'Oswald',sans-serif;
+  font-size: 16px; }
+
+.nav__fondo {
+  background-color: #dfd1be; }
+
+.nav__logo {
+  width: 26px;
+  height: 26px; }
+
+.nav__hover:hover {
+  color: #650909;
+  transform: scale(0.95, 0.95);
+  transition: all 0.3s; }
+
+.principal {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-template-rows: 15% 50% 35%;
+  grid-template-areas: "titulo foto" "texto foto" "extra foto";
+  gap: 5px; }
+
+.principal__titulo {
+  grid-column: 1/2;
+  grid-row: 1/2; }
+
+.principal__foto {
+  grid-column: 2/3;
+  grid-row: 1/4;
+  background-image: url("../resources/foto-principal.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 10px; }
+
+.principal__texto {
+  padding-bottom: 50px;
+  font-size: 20px;
+  grid-column: 1/2;
+  grid-row: 2/3; }
+
+.extra {
+  background-color: #650909;
+  display: flex;
+  grid-column: 1/2;
+  grid-row: 3/4;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px; }
+
+.extra__texto {
+  color: #dfd1be;
+  align-self: center; }
+
+.extra__imagen {
+  width: 195px;
+  height: 195px;
+  align-self: center;
+  margin-left: 5px;
+  border-radius: 5px; }
+
+.navbar-toggler-border-color {
+  color: #dfd1be; }
+
+.album {
+  display: grid;
+  grid-template-areas: "evermore folklore lover" "reputation nineteen red" "speak-now fearless debut";
+  row-gap: 30px;
+  /* GRID */ }
+  .album__foto {
+    width: 150px;
+    height: 150px;
+    margin-left: 10px; }
+  .album__cancion {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px; }
+  .album__flex {
+    display: flex; }
+  .album__evermore {
+    grid-area: evermore; }
+  .album__folklore {
+    grid-area: folklore; }
+  .album__lover {
+    grid-area: lover; }
+  .album__reputation {
+    grid-area: reputation; }
+  .album__nineteen {
+    grid-area: nineteen; }
+  .album__red {
+    grid-area: red; }
+  .album__speak-now {
+    grid-area: speak-now; }
+  .album__fearless {
+    grid-area: fearless; }
+  .album__debut {
+    grid-area: debut; }
+
+.re-recordings {
+  display: flex; }
+  .re-recordings .recordings {
+    margin: 20px; }
+    .re-recordings .recordings__flex {
+      display: flex; }
+    .re-recordings .recordings__foto {
+      width: 150px;
+      height: 150px;
+      margin-left: 10px; }
+    .re-recordings .recordings__cancion {
+      font-family: 'Roboto', sans-serif;
+      margin-left: 25px; }
+  .re-recordings .informacion__parrafo {
+    font-size: 20px; }
+
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 70px 200px 200px 200px 200px 200px;
+  gap: 5px; }
+  .galeria .diploma {
+    grid-column: 1/2;
+    grid-row: 2/4;
+    background-image: url("../resources/diploma.jpg");
+    background-size: cover;
+    background-position: center; }
+  .galeria .atw {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url("../resources/atw.jpg");
+    background-size: cover;
+    background-position: center; }
+  .galeria .concierto {
+    grid-column: 3/4;
+    grid-row: 2/4;
+    background-image: url("../resources/concierto.jpg");
+    background-size: cover;
+    background-position: center; }
+  .galeria .concierto-dos {
+    grid-column: 1/2;
+    grid-row: 4/7;
+    background-image: url("../resources/concierto-dos.jpg");
+    background-size: cover;
+    background-position: center; }
+  .galeria .grammy {
+    grid-column: 2/3;
+    grid-row: 3/5;
+    background-image: url("../resources/grammy.jpg");
+    background-size: cover;
+    background-position: center; }
+  .galeria .concierto-tres {
+    grid-column: 3/4;
+    grid-row: 4/6;
+    background-image: url("../resources/concierto-tres.jpeg");
+    background-size: cover;
+    background-position: center; }
+  .galeria .grammy-dos {
+    grid-column: 2/3;
+    grid-row: 5/7;
+    background-image: url("../resources/grammy-dos.jpg");
+    background-size: cover;
+    background-position: center; }
+  .galeria__titulo {
+    grid-column: 1/4;
+    grid-row: 1/2; }
+
 /* CELULAR*/
 @media (min-width: 320px) and (max-width: 575px) {
   /* MAIN */
@@ -167,10 +335,12 @@ footer {
     grid-row: 1/3; }
   .principal__texto {
     grid-column: 1/2;
-    grid-row: 2/3; }
+    grid-row: 2/3;
+    margin-bottom: 20px; }
   .extra {
     grid-column: 1/3;
-    grid-row: 3/4; }
+    grid-row: 3/4;
+    margin-top: 15px; }
   /* ALBUMS */
   .album {
     grid-template-areas: "evermore folklore"  "lover reputation"  "ninteen red" "speak fearless"  "taylor none";
@@ -187,142 +357,3 @@ footer {
   /* CONTACTO */
   .info__parrafo {
     text-align: center; } }
-
-.nav__color {
-  color: #9b0909;
-  font-family: 'Oswald',sans-serif;
-  font-size: 16px; }
-
-.nav__fondo {
-  background-color: #dfd1be; }
-
-.nav__logo {
-  width: 26px;
-  height: 26px; }
-
-.principal {
-  display: grid;
-  grid-template-columns: 65% 35%;
-  grid-template-rows: 15% 50% 35%;
-  grid-template-areas: "titulo foto" "texto foto" "extra foto";
-  gap: 5px; }
-  .principal__titulo {
-    grid-column: 1/2;
-    grid-row: 1/2; }
-  .principal__foto {
-    grid-column: 2/3;
-    grid-row: 1/4;
-    background-image: url("../resources/foto-principal.jpg");
-    background-size: cover;
-    background-position: center;
-    padding: 10px; }
-  .principal__texto {
-    padding-bottom: 50px;
-    font-size: 20px;
-    grid-column: 1/2;
-    grid-row: 2/3; }
-  .principal .extra {
-    grid-column: 1/2;
-    grid-row: 3/4; }
-    .principal .extra__texto {
-      color: #dfd1be;
-      align-self: center; }
-    .principal .extra__alto {
-      background-color: #650909; }
-    .principal .extra__imagen {
-      width: 190px;
-      height: 195px;
-      align-self: center;
-      margin-left: 5px; }
-      .principal .extra__imagen:hover {
-        transform: scale(2, 2); }
-
-.album {
-  display: grid;
-  grid-template-areas: "evermore folklore lover" "reputation ninteen red" "speak fearless taylor";
-  row-gap: 30px;
-  /* GRID */ }
-  .album__foto {
-    width: 150px;
-    height: 150px;
-    margin-left: 10px; }
-  .album__cancion {
-    font-family: 'Roboto', sans-serif;
-    margin-left: 25px; }
-  .album__flex {
-    display: flex; }
-  .album__evermore {
-    grid-area: evermore; }
-  .album__folklore {
-    grid-area: folklore; }
-  .album__lover {
-    grid-area: lover; }
-  .album__reputation {
-    grid-area: reputation; }
-
-.re-recordings {
-  display: flex; }
-  .re-recordings .recordings {
-    margin: 20px; }
-    .re-recordings .recordings__flex {
-      display: flex; }
-    .re-recordings .recordings__foto {
-      width: 150px;
-      height: 150px;
-      margin-left: 10px; }
-    .re-recordings .recordings__cancion {
-      font-family: 'Roboto', sans-serif;
-      margin-left: 25px; }
-  .re-recordings .informacion__parrafo {
-    font-size: 20px; }
-
-.galeria {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 70px 200px 200px 200px 200px 200px;
-  gap: 5px; }
-  .galeria .diploma {
-    grid-column: 1/2;
-    grid-row: 2/4;
-    background-image: url("../resources/diploma.jpg");
-    background-size: cover;
-    background-position: center; }
-  .galeria .atw {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    background-image: url("../resources/atw.jpg");
-    background-size: cover;
-    background-position: center; }
-  .galeria .concierto {
-    grid-column: 3/4;
-    grid-row: 2/4;
-    background-image: url("../resources/concierto.jpg");
-    background-size: cover;
-    background-position: center; }
-  .galeria .concierto-dos {
-    grid-column: 1/2;
-    grid-row: 4/7;
-    background-image: url("../resources/concierto-dos.jpg");
-    background-size: cover;
-    background-position: center; }
-  .galeria .grammy {
-    grid-column: 2/3;
-    grid-row: 3/5;
-    background-image: url("../resources/grammy.jpg");
-    background-size: cover;
-    background-position: center; }
-  .galeria .concierto-tres {
-    grid-column: 3/4;
-    grid-row: 4/6;
-    background-image: url("../resources/concierto-tres.jpeg");
-    background-size: cover;
-    background-position: center; }
-  .galeria .grammy-dos {
-    grid-column: 2/3;
-    grid-row: 5/7;
-    background-image: url("../resources/grammy-dos.jpg");
-    background-size: cover;
-    background-position: center; }
-  .galeria__titulo {
-    grid-column: 1/4;
-    grid-row: 1/2; }
