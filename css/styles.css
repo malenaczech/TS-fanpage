@@ -75,7 +75,9 @@ footer {
   display: grid;
   grid-template-columns: 65% 35%;
   grid-template-rows: 15% 50% 35%;
-  grid-template-areas: "titulo foto" "texto foto" "extra foto";
+  grid-template-areas: "titulo foto"
+ "texto foto"
+ "extra foto";
   gap: 5px; }
 
 .principal__titulo {
@@ -120,7 +122,9 @@ footer {
 
 .album {
   display: grid;
-  grid-template-areas: "evermore folklore lover" "reputation nineteen red" "speak-now fearless debut";
+  grid-template-areas: "evermore folklore lover"
+ "reputation nineteen red"
+ "speak-now fearless debut";
   row-gap: 30px;
   /* GRID */ }
   .album__foto {
@@ -167,14 +171,6 @@ footer {
   .re-recordings .informacion__parrafo {
     font-size: 20px; }
 
-<<<<<<< HEAD
-.galeria {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 70px 200px 200px 200px 200px 200px;
-  gap: 5px; }
-  .galeria .diploma {
-=======
 /* GRID */
 .album__evermore{
     grid-area: evermore;
@@ -248,7 +244,6 @@ footer {
 }
 
 .diploma{
->>>>>>> elementos-bootstrap
     grid-column: 1/2;
     grid-row: 2/4;
     background-image: url("../resources/diploma.jpg");
@@ -362,7 +357,15 @@ footer {
     grid-row: 8/9; }
   /* ALBUMS */
   .album {
-    grid-template-areas: "evermore" "folklore"  "lover" "reputation"  "ninteen"  "red" "speak"  "fearless"  "taylor";
+    grid-template-areas: "evermore"
+ "folklore" 
+ "lover"
+ "reputation" 
+ "ninteen" 
+ "red"
+ "speak" 
+ "fearless" 
+ "taylor";
     row-gap: 16px;
     justify-content: center; }
   /* RE-RECORDINGS */
@@ -402,7 +405,9 @@ footer {
     align-items: center; }
   /* INDEX */
   .principal {
-    grid-template-areas: "titulo foto" "texto foto" "extra extra"; }
+    grid-template-areas: "titulo foto"
+ "texto foto"
+ "extra extra"; }
   .principal__titulo {
     grid-column: 1/2;
     grid-row: 1/2; }
@@ -419,7 +424,11 @@ footer {
     margin-top: 15px; }
   /* ALBUMS */
   .album {
-    grid-template-areas: "evermore folklore"  "lover reputation"  "ninteen red" "speak fearless"  "taylor none";
+    grid-template-areas: "evermore folklore" 
+ "lover reputation" 
+ "ninteen red"
+ "speak fearless" 
+ "taylor none";
     row-gap: 16px; }
   /* RE-RECORDINGS */
   .re-recordings {
