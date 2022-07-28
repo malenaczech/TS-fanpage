@@ -1,26 +1,23 @@
-.re-recordings{
-    display: flex;
 
-    .recordings{
+.recordings{
         margin: 20px;
-    
-        &__flex{
-            display: flex;
-        }
 
-        &__foto{
-            width: 150px;
-            height: 150px;
-            margin-left: 10px;
-        }
-
-        &__cancion{
-            font-family: 'Roboto', sans-serif;
-            margin-left: 25px;
-        }
+    &__flex{
+        display: flex;
     }
 
-    .informacion__parrafo{
-        font-size: 20px;
-    }    
+    &__foto{
+        width: 150px;
+        height: 150px;
+        margin-left: 10px;
+    }
+
+    &__cancion{
+        font-family: $parrafos;
+        margin-left: 25px;
+    }
 }
+
+.informacion__parrafo{
+    font-size: 20px;
+}    

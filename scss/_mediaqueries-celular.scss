@@ -1,0 +1,123 @@
+/* CELULAR*/
+@media (min-width: 320px) and (max-width: 575px){
+
+    /* MAIN */
+    h1{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    /* INDEX */
+    .principal{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+
+        &__titulo{
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        
+        &__foto{
+            display: none;
+        }
+        
+        &__texto{
+            font-size: 16px;
+            grid-column: 1/2;
+            grid-row: 1/2;
+            text-align: center;
+            margin: 0px 16px;
+        }
+    }
+    
+    .extra{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    /* GALERIA */
+    .galeria{
+        height: 300vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40px repeat(7, 1fr);
+        gap: 2px;
+
+        &__titulo{
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+    }
+    
+
+    .diploma{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    
+    .atw{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    
+    .concierto{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    
+    .concierto-dos{
+        grid-column: 1/2;
+        grid-row: 5/6;
+        background-position: top;
+    }
+    
+    .grammy{
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+    
+    .concierto-tres{
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+    
+    .grammy-dos{
+        grid-column: 1/2;
+        grid-row: 8/9;
+    }
+
+
+    /* ALBUMS */
+    .album{
+        grid-template-areas: "evermore"
+                            "folklore" 
+                            "lover"
+                            "reputation" 
+                            "nineteen" 
+                            "red"
+                            "speak-now" 
+                            "fearless" 
+                            "debut";
+        row-gap: 16px;
+        justify-content: center;
+    }
+    
+    /* RE-RECORDINGS */
+    .recordings__cancion{
+        margin-left: 20px;
+    }
+
+
+    .informacion__parrafo{
+        font-size: 16px;
+        text-align: center;
+    }
+
+
+    /* CONTACTO */
+    .info__parrafo{
+        text-align: center;
+    }
+}

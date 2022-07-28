@@ -1,8 +1,14 @@
+
 .nav{
     &__color{
         color: $color-titulos;
-        font-family:'Oswald',sans-serif;
+        font-family:$titulos-secudarios;
         font-size: 16px;
+        &:hover{
+            color: $color-oscuro;
+            transform: scale(0.95,0.95);
+            transition: all 0.3s;
+        }
     }
 
     &__fondo{
@@ -15,8 +21,6 @@
     }
 }
 
-.nav__hover:hover{
-    color: $color-oscuro;
-    transform: scale(0.95,0.95);
-    transition: all 0.3s;
+.navbar-toggler-border-color{
+    color: $color-claro;
 }

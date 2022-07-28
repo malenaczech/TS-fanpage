@@ -1,3 +1,4 @@
+
 /* FOOTER */
 footer{
     background-color: $color-oscuro;
@@ -17,11 +18,11 @@ footer{
             height: 20px;
             justify-content: flex-end;
             margin-right: 16px;
+            &:hover{
+            transform: scale(0.95,0.95);
+            transition: all 0.3s;
+            }
         }
     }
 }
 
-.footer__icono:hover{
-    transform: scale(0.95,0.95);
-    transition: all 0.3s;
-}
