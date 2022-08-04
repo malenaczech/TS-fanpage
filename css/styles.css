@@ -1,5 +1,10 @@
 /* COLORES */
 /* LETRAS */
+/* EXTEND */
+.imagenes-grid, .diploma, .atw, .concierto, .concierto-dos, .grammy, .concierto-tres, .grammy-dos {
+  background-size: cover;
+  background-position: center; }
+
 .buttom__color {
   background-color: #650909;
   color: #dfd1be; }
@@ -172,51 +177,37 @@ footer {
 .diploma {
   grid-column: 1/2;
   grid-row: 2/4;
-  background-image: url("../resources/diploma.jpg");
-  background-size: cover;
-  background-position: center; }
+  background-image: url("../resources/diploma.jpg"); }
 
 .atw {
   grid-column: 2/3;
   grid-row: 2/3;
-  background-image: url("../resources/atw.jpg");
-  background-size: cover;
-  background-position: center; }
+  background-image: url("../resources/atw.jpg"); }
 
 .concierto {
   grid-column: 3/4;
   grid-row: 2/4;
-  background-image: url("../resources/concierto.jpg");
-  background-size: cover;
-  background-position: center; }
+  background-image: url("../resources/concierto.jpg"); }
 
 .concierto-dos {
   grid-column: 1/2;
   grid-row: 4/7;
-  background-image: url("../resources/concierto-dos.jpg");
-  background-size: cover;
-  background-position: center; }
+  background-image: url("../resources/concierto-dos.jpg"); }
 
 .grammy {
   grid-column: 2/3;
   grid-row: 3/5;
-  background-image: url("../resources/grammy.jpg");
-  background-size: cover;
-  background-position: center; }
+  background-image: url("../resources/grammy.jpg"); }
 
 .concierto-tres {
   grid-column: 3/4;
   grid-row: 4/6;
-  background-image: url("../resources/concierto-tres.jpeg");
-  background-size: cover;
-  background-position: center; }
+  background-image: url("../resources/concierto-tres.jpeg"); }
 
 .grammy-dos {
   grid-column: 2/3;
   grid-row: 5/7;
-  background-image: url("../resources/grammy-dos.jpg");
-  background-size: cover;
-  background-position: center; }
+  background-image: url("../resources/grammy-dos.jpg"); }
 
 /* TABLET */
 @media (min-width: 575px) and (max-width: 992px) {

@@ -15,54 +15,47 @@
     grid-column: 1/2;
     grid-row: 2/4;
     background-image: url("../resources/diploma.jpg");
-    background-size: cover;
-    background-position: center;
+    @extend .imagenes-grid
 }
 
 .atw{
     grid-column: 2/3;
     grid-row: 2/3;
     background-image: url("../resources/atw.jpg");
-    background-size: cover;
-    background-position: center;
+    @extend .imagenes-grid
 }
 
 .concierto{
     grid-column: 3/4;
     grid-row: 2/4;
     background-image: url("../resources/concierto.jpg");
-    background-size: cover;
-    background-position: center;
+    @extend .imagenes-grid
 }
 
 .concierto-dos{
     grid-column: 1/2;
     grid-row: 4/7;
     background-image: url("../resources/concierto-dos.jpg");
-    background-size: cover;
-    background-position: center;
+    @extend .imagenes-grid
 }
 
 .grammy{
     grid-column: 2/3;
     grid-row: 3/5;
     background-image: url("../resources/grammy.jpg");
-    background-size: cover;
-    background-position: center;
+    @extend .imagenes-grid
 }
 
 .concierto-tres{
     grid-column: 3/4;
     grid-row: 4/6;
     background-image: url("../resources/concierto-tres.jpeg");
-    background-size: cover;
-    background-position: center;
+    @extend .imagenes-grid
 }
 
 .grammy-dos{
     grid-column: 2/3;
     grid-row: 5/7;
     background-image: url("../resources/grammy-dos.jpg");
-    background-size: cover;
-    background-position: center;
+    @extend .imagenes-grid
 }
