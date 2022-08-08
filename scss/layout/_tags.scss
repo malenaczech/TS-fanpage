@@ -10,18 +10,14 @@ main{
 
 h1{
     text-align: center;
-    font-family: $titulos;
+    @include font ($titulos, $size-titulos, $color-titulos)
     font-weight: bold;
-    font-size: 50px;
-    color: $color-titulos;
     padding: 10px 0px 0px 0px;
 }
 
 h2{
-    font-family: $titulos-secudarios;
-    color: $color-titulos;
+    @include font ($titulos-secudarios, $size-parrafos, $color-titulos)
     margin: 0px 10px;
-    font-size: 20px;
 }
 
 p{
@@ -34,6 +30,5 @@ span{
 }
 
 label{
-    font-family: $titulos-secudarios;
-    font-size: 20px;
+    @include font ($titulos-secudarios, $size-parrafos, $color-claro)
 }

@@ -1,15 +1,6 @@
 
 /* TABLET */
 @media (min-width: 575px) and (max-width: 992px){
-    /* MAIN */
-    h1{
-        font-size: 30px;
-    }
-
-    p{
-        font-size: 16px;
-    }
-
 
     /* INDEX */
     .principal{
@@ -55,7 +46,7 @@
     /* RE-RECORDINGS */
 
     .informacion__parrafo{
-        font-size: 16px;
+        font-size: $size-parrafos;
         text-align: center;
     }
 

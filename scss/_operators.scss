@@ -3,3 +3,9 @@
     background-size: cover;
     background-position: center;
 }
+
+@mixin font($family, $size, $color){
+    font-family: $family;
+    font-size: $size;
+    color: $color
+}

@@ -1,9 +1,7 @@
 
 .nav{
     &__color{
-        color: $color-titulos;
-        font-family:$titulos-secudarios;
-        font-size: 16px;
+        @include font ($titulos-secudarios, $size-normal, $color-titulos)
         &:hover{
             color: $color-oscuro;
             transform: scale(0.95,0.95);

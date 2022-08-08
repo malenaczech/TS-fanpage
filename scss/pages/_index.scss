@@ -24,7 +24,7 @@
     
     &__texto{
         padding-bottom: 50px;
-        font-size: 20px;
+        font-size: $size-parrafos;
         grid-column: 1/2;
         grid-row: 2/3;
     }

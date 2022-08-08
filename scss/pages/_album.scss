@@ -11,12 +11,11 @@
     &__foto{
         width: 150px;
         height: 150px;
-        margin-left: 10px;
+        margin-left: 14px;
     }
     
     &__cancion{
-        font-family: $parrafos;
-        font-size: 14px;
+        @include font ($parrafos, 0.875rem, $color-default)
     }
     
     &__flex{

@@ -1,14 +1,6 @@
 /* CELULAR*/
 @media (min-width: 320px) and (max-width: 575px){
 
-    /* MAIN */
-    h1{
-        font-size: 30px;
-    }
-
-    p{
-        font-size: 16px;
-    }
 
     /* INDEX */
     .principal{
@@ -111,7 +103,7 @@
 
 
     .informacion__parrafo{
-        font-size: 16px;
+        font-size: $size-normal;
         text-align: center;
     }
 

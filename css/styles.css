@@ -19,16 +19,16 @@ main {
 h1 {
   text-align: center;
   font-family: "Bebas Neue", cursive;
-  font-weight: bold;
-  font-size: 50px;
+  font-size: 3.125rem;
   color: #9b0909;
+  font-weight: bold;
   padding: 10px 0px 0px 0px; }
 
 h2 {
   font-family: "Oswald", sans-serif;
+  font-size: 1.25rem;
   color: #9b0909;
-  margin: 0px 10px;
-  font-size: 20px; }
+  margin: 0px 10px; }
 
 p {
   font-family: "Roboto", sans-serif;
@@ -39,7 +39,8 @@ span {
 
 label {
   font-family: "Oswald", sans-serif;
-  font-size: 20px; }
+  font-size: 1.25rem;
+  color: #dfd1be; }
 
 /* FOOTER */
 footer {
@@ -60,9 +61,9 @@ footer {
       transition: all 0.3s; }
 
 .nav__color {
-  color: #9b0909;
   font-family: "Oswald", sans-serif;
-  font-size: 16px; }
+  font-size: 1rem;
+  color: #9b0909; }
   .nav__color:hover {
     color: #650909;
     transform: scale(0.95, 0.95);
@@ -96,7 +97,7 @@ footer {
     padding: 10px; }
   .principal__texto {
     padding-bottom: 50px;
-    font-size: 20px;
+    font-size: 1.25rem;
     grid-column: 1/2;
     grid-row: 2/3; }
 
@@ -125,10 +126,11 @@ footer {
   .album__foto {
     width: 150px;
     height: 150px;
-    margin-left: 10px; }
+    margin-left: 14px; }
   .album__cancion {
     font-family: "Roboto", sans-serif;
-    font-size: 14px; }
+    font-size: 0.875rem;
+    color: #181818; }
   .album__flex {
     display: flex; }
   .album__evermore {
@@ -163,7 +165,7 @@ footer {
     margin-left: 25px; }
 
 .informacion__parrafo {
-  font-size: 20px; }
+  font-size: 1.25rem; }
 
 .galeria {
   display: grid;
@@ -211,11 +213,6 @@ footer {
 
 /* TABLET */
 @media (min-width: 575px) and (max-width: 992px) {
-  /* MAIN */
-  h1 {
-    font-size: 30px; }
-  p {
-    font-size: 16px; }
   /* INDEX */
   .principal {
     grid-template-areas: "titulo foto" "texto foto" "extra extra"; }
@@ -239,7 +236,7 @@ footer {
     row-gap: 16px; }
   /* RE-RECORDINGS */
   .informacion__parrafo {
-    font-size: 16px;
+    font-size: 1.25rem;
     text-align: center; }
   .recordings__cancion {
     margin-left: 20px; }
@@ -249,11 +246,6 @@ footer {
 
 /* CELULAR*/
 @media (min-width: 320px) and (max-width: 575px) {
-  /* MAIN */
-  h1 {
-    font-size: 30px; }
-  p {
-    font-size: 16px; }
   /* INDEX */
   .principal {
     grid-template-columns: 1fr;
@@ -312,7 +304,7 @@ footer {
   .recordings__cancion {
     margin-left: 20px; }
   .informacion__parrafo {
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center; }
   /* CONTACTO */
   .info__parrafo {
