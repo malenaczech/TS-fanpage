@@ -48,8 +48,8 @@ footer {
   color: #dfd1be;
   padding: 15px 5px;
   display: flex;
-  margin-top: 20px;
-  bottom: auto; }
+  bottom: auto;
+  border-top: 20px solid beige; }
   footer .footer__texto {
     flex-grow: 1; }
   footer .footer__icono {
@@ -81,7 +81,7 @@ footer {
 
 .principal {
   display: grid;
-  grid-template-columns: 65% 35%;
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: 15% 50% 35%;
   grid-template-areas: "titulo foto" "texto foto" "extra foto";
   gap: 5px; }
@@ -94,7 +94,7 @@ footer {
     background-image: url("../resources/foto-principal.jpg");
     background-size: cover;
     background-position: center;
-    padding: 10px; }
+    border-bottom-left-radius: 10px; }
   .principal__texto {
     padding-bottom: 50px;
     font-size: 1.25rem;

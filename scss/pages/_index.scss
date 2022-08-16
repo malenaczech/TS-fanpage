@@ -1,7 +1,7 @@
 
 .principal{
     display: grid;
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: 15% 50% 35%;
     grid-template-areas: "titulo foto"
                         "texto foto"
@@ -19,7 +19,7 @@
         background-image: url("../resources/foto-principal.jpg");
         background-size: cover;
         background-position: center;
-        padding: 10px;
+        border-bottom-left-radius: 10px;
     }
     
     &__texto{
