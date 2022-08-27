@@ -267,7 +267,8 @@ footer {
       margin: 0px 16px; }
   .extra {
     grid-column: 1/2;
-    grid-row: 3/4; }
+    grid-row: 3/4;
+    flex-direction: column; }
   /* GALERIA */
   .galeria {
     height: 300vh;
