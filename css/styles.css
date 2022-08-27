@@ -91,7 +91,7 @@ footer {
   .principal__foto {
     grid-column: 2/3;
     grid-row: 1/4;
-    background-image: url("../resources/foto-principal.jpg");
+    background-image: url("../resources/taylor.jpg");
     background-size: cover;
     background-position: center;
     border-bottom-left-radius: 10px; }
@@ -164,8 +164,12 @@ footer {
     font-family: "Roboto", sans-serif;
     margin-left: 25px; }
 
+.titulo {
+  justify-content: flex-start; }
+
 .informacion__parrafo {
-  font-size: 1.25rem; }
+  font-size: 1.25rem;
+  margin: 20px; }
 
 .galeria {
   display: grid;

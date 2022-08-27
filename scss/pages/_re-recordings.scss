@@ -18,6 +18,12 @@
     }
 }
 
+.titulo{
+    
+    justify-content: flex-start;
+}
+
 .informacion__parrafo{
     font-size: $size-parrafos;
+    margin: 20px;
 }    
